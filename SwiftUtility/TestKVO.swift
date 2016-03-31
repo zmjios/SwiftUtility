@@ -10,7 +10,7 @@ import Foundation
 
 protocol PropertyObservable{
     
-    typealias PropertyType
+    associatedtype PropertyType
     var propertyChanged:Event<PropertyType>{ get }
 }
 
